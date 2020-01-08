@@ -1,2 +1,2 @@
 # Festival3
-Remake 3 - we can do better!
+Remake 3 - it should get much better!
