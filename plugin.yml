@@ -1,0 +1,16 @@
+name: Festival3
+author: Genboy
+version: 3.0.0
+main: genboy\Festival\Festival
+load: POSTWORLD
+api: [3.0.0]
+website: "https://github.com/genboy/Festival3"
+commands:
+  fe:
+    description: "Allows you to manage Festival area's and events."
+    usage: "Festival 3 in development"
+    permission: festival.command.fe
+permissions:
+  festival:
+    description: "Allows access to all Festival features."
+    default: false
