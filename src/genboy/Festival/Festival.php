@@ -24,6 +24,7 @@ use genboy\Festival\FeLanguage as Language;
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\TextFormat;
 use pocketmine\event\Listener;
+use pocketmine\Player;
 
 use pocketmine\event\player\PlayerJoinEvent;
 use pocketmine\event\player\PlayerLoginEvent;
@@ -35,7 +36,7 @@ use pocketmine\command\CommandSender;
 // Festival main class
 class Festival extends PluginBase implements Listener{
 
-    public $help,$tell,$cmd,$menu;
+    public $help, $menu;
 
     public function onEnable() : void{
 
@@ -207,6 +208,8 @@ Model - config, data and structure - levels, area's, players, records
 Controller - interaction View and Model, other plugins
 
 View - commands, event handling, ui
+
+Listener +
 
 
 
