@@ -1,9 +1,9 @@
 <?php declare(strict_types = 1);
 
-/** src/genboy/Festival/FeLanguage.php */
-namespace genboy\Festival;
+/** src/genboy/Festival/lang/Language.php */
+namespace genboy\Festival\lang;
 
-class FeLanguage{
+class Language{
 	public static $instance;
 	public function __construct($owner, $langjson){
 		$this->owner = $owner;

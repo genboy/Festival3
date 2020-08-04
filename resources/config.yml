@@ -1,0 +1,211 @@
+# Config file for Festival 2.1.1
+
+# Festival options
+Options:
+  # select a language: English = en, Dutch = nl, Español = es, Polskie = pl  ( todo: fr = france,  日本人 = ja, 中文 = zh, 한국어 = ko, русский = ru, italiano = it, Indonesia = in, translate please)
+  Language: en
+
+  # Hold Magic block/item to enter Menu and tab area positions
+  ItemID: 201
+
+  # Area Messages Display position (msg/title/tip/pop)
+  Msgtype: msg
+
+  # Area Floatingtext title display (off/op/on)
+  Areadisplay: op
+
+  # Area Messages persist display  (off/op/on)
+  Msgdisplay: op
+
+  # Use flight flag (on/off) - since v.1.1.3 flight flag usage can be turn off
+  FlightControl: on
+
+  # Use level flag protection system (on/off) - defaults are still used for area's
+  LevelControl: off
+
+  # Auto whitelist area creator (on/off)
+  AutoWhitelist: off
+
+# Flag settings for unprotected areas
+# Flag rule: a flag protects the area and the players in it
+# These are the old default flag names, to be able to copy settings from previous config.yml versions
+Default:
+
+  # Keep players from getting hurt? (true = Player god mode)
+  Hurt: false
+
+  # Keep players from getting hurt by other players? (true = NoPVP)
+  PVP: false
+
+  # Keep players from flying? (true = NoFlight)
+  Flight: false
+
+  # Keep players from editing the world? (true = NoEdit)
+  Edit: true
+
+  # Keep players from touching blocks and activating things like chests? (true = NoTouching)
+  Touch: false
+
+  # Prevent Animal Entities from spawning? (true = NoAnimals)
+  Animals: false
+
+  # Prevent Mob Entities from spawning? (true = NoMobs)
+  Mobs: false
+
+  # Keep players from having effects like speed or night vision? (true = NoEffects)
+  Effects: false
+
+  # Keep players from seeing enter/leave/description messages? (true = NoMessages)
+  Msg: false
+
+  # Prevent players from enter/leaving the area? (barrier) (true = NoPassage)
+  Passage: false
+
+  # Keep players from dropping items in the area? (true = NoDropping)
+  Drop: false
+
+  # No explosions allowed in the area? (true = No TNT Explosions)
+  TNT: true
+
+  # No exploding mobs allowed in the area? (true = No creeper explosions etc.)
+  Explode: true
+
+  # No fire allowed in the area? (true = no fire)
+  Fire: false
+
+  # No shooting allowed in the area? (true = NoShooting)
+  Shoot: false
+
+  # Keep players from hunger(exhaust) in the area? (true = NoExhaust)
+  Hunger: false
+
+  # Keep players from executing area event commands without specific perms (true = No Op Permissons)
+  Perms: false
+
+  # Keep players from taking fall damage (true = NoFallDamage)
+  Fall: true
+
+  # Keep area event commands from executing for non-ops (command test mode)
+  CMD: false
+
+# Flag settings for unprotected areas in individual worlds:
+Worlds:
+
+  # New worlds (ie. automatic generated)
+  DEFAULT:
+
+    # Keep players from getting hurt? (true = Player god mode)
+    Hurt: false
+
+    # Keep players from getting hurt by other players? (true = NoPVP)
+    PVP: false
+
+    # Keep players from flying? (true = NoFlight)
+    Flight: false
+
+    # Keep players from editing the world? (true = NoEdit)
+    Edit: true
+
+    # Keep players from touching blocks and activating things like chests? (true = NoTouching)
+    Touch: false
+
+    # Prevent Animal Entities from spawning? (true = NoAnimals)
+    Animals: false
+
+    # Prevent Mob Entities from spawning? (true = NoMobs)
+    Mobs: false
+
+    # Keep players from having effects like speed or night vision? (true = NoEffects)
+    Effects: false
+
+    # Keep players from seeing enter/leave/description messages? (true = NoMessages)
+    Msg: false
+
+    # Prevent players from enter/leaving the area? (barrier) (true = NoPassage)
+    Passage: false
+
+    # Keep players from dropping items in the area? (true = NoDropping)
+    Drop: false
+
+    # No explosions allowed in the area? (true = NoExplosions)
+    TNT: false
+
+    # No exploding mobs allowed in the area? (true = No creeper explosions etc.)
+    Explode: false
+
+    # No fire allowed in the area? (true = no fire)
+    Fire: false
+
+    # No shooting allowed in the area? (true = NoShooting)
+    Shoot: false
+
+    # Keep players from hunger(exhaust) in the area? (true = NoExhaust)
+    Hunger: false
+
+    # Keep players from executing area event commands without specific perms (true = No Op Permissons)
+    Perms: false
+
+    # Keep players from taking fall damage (true = NoFallDamage)
+    Fall: true
+
+    # Keep area event commands from executing for non-ops (command test mode)
+    CMD: false
+
+  # Example specific level called 'world'  specific default flags (copy and replace 'world' with your levelname)
+  world:
+     # Keep players from getting hurt? (true = Player god mode)
+    Hurt: false
+
+    # Keep players from getting hurt by other players? (true = NoPVP)
+    PVP: false
+
+    # Keep players from flying? (true = NoFlight)
+    Flight: false
+
+    # Keep players from editing the world? (true = NoEdit)
+    Edit: true
+
+    # Keep players from touching blocks and activating things like chests? (true = NoTouching)
+    Touch: false
+
+    # Prevent Animal Entities from spawning? (true = NoAnimals)
+    Animals: false
+
+    # Prevent Mob Entities from spawning? (true = NoMobs)
+    Mobs: false
+
+    # Keep players from having effects like speed or night vision? (true = NoEffects)
+    Effects: false
+
+    # Keep players from seeing enter/leave/description messages? (true = NoMessages)
+    Msg: false
+
+    # Prevent players from enter/leaving the area? (barrier) (true = NoPassage)
+    Passage: false
+
+    # Keep players from dropping items in the area? (true = NoDropping)
+    Drop: false
+
+    # No explosions allowed in the area? (true = NoExplosions)
+    TNT: false
+
+    # No exploding mobs allowed in the area? (true = No creeper explosions etc.)
+    Explode: false
+
+    # No fire allowed in the area? (true = no fire)
+    Fire: false
+
+    # No shooting allowed in the area? (true = NoShooting)
+    Shoot: false
+
+    # Keep players from hunger(exhaust) in the area? (true = NoExhaust)
+    Hunger: false
+
+    # Keep players from executing area event commands without specific perms (true = No Op Permissons)
+    Perms: false
+
+    # Keep players from taking fall damage (true = NoFallDamage)
+    Fall: true
+
+    # Keep area event commands from executing for non-ops (command test mode)
+    CMD: false
